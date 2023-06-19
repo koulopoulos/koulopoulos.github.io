@@ -19,8 +19,8 @@ body {
     padding: 0;
     display: flex;
     justify-content: center;
-    background: #F0F0F0;
-    color: #1A1A1A;
+    background: #FAFAFA;
+    color: #101010;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -110,4 +110,20 @@ audio {
     font-size: 1rem;
     line-height: 1;
     font-weight: 600;
+}
+
+.faded {
+    opacity: 0.2;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    padding: 1rem 0;
+}
+
+canvas {
+    padding: 1rem 0;
+    width: 100%;
+    max-width: 100%;
 }
