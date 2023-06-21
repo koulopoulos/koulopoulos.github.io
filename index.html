@@ -6,7 +6,7 @@
     <body>
         <main>
             <h1>An <span class="faded">in</span>accessible web.</h1>
-            <p>
+            <p class="dropcap">
                 Web applications have changed the way we live, work, and play.
                 Facebook, Spotify, Netflix, Google Docs, Twitter, Slack, Wordle, 
                 The Wall Street Journal — what we have historically viewed as 
@@ -84,11 +84,51 @@
                 only expected to grow in complexity over time, it's likely that the legal consequences 
                 of inaccessible design will continue to be a concern.
             </p>
-            <p>
+            <p class="dropcap">
                 So, what are web application developers doing to combat accessibility issues?
                 One of the most popular trends is to automate the process of auditing code for 
-                accessibility issues. 
+                accessibility issues. For example, an engineer might leverage what is known as a 
+                static code analysis tool (also known as a linter) to scan their code for accessibility 
+                violations. Despite the implementation details of this process being highly technical, 
+                it operates in an incredibly similar manner to a spell checker you would 
+                    <span style="border-bottom: 1px dotted #ff0000;padding:1px"><span style="border-bottom: 1px dotted #ff0000;">encountr</span></span>
+                in a program like Microsoft Word (yes that typo was intentional). 
             </p>
+            <p>
+                When it comes to auditing code for accessibility issues, automated checks cannot be 
+                solely relied upon. You've probably encountered a time where a spell checker incorrectly 
+                highlighted your writing as an error; This can also occur with static code analysis tools.
+                False positives can be a significant hindrance to the development experience, consuming
+                time and resources without reason. Alternatively, automated analysis can't detect every true 
+                violation. Just as how a spell checker can't detect an incorrect grammatical structure to 
+                your writing, a static code analysis tool might not be able to interpret code that is 
+                rendered as an inaccessible user interface component.
+            </p>
+            <details>
+                <summary>Click to reveal Context Memo</summary>
+                <div class="flex-column">
+                    <p>
+                        I chose to write a Medium-style blog article for the public writing component of
+                        this course. This is a common medium (no pun intended) for short-form explainers 
+                        in the tech field. I wanted to add some level of interactivity to the article by 
+                        including supplemental audio and visual components. These additions help further 
+                        the reader's understanding of web accessibility in the same format as it would be 
+                        encountered naturally. I also wanted to include some quantitative research to 
+                        support the article. I ended up including data cited in my original research paper 
+                        regarding web accessibility lawsuits, as I found it to be both interesting and 
+                        impactful.
+                    </p>
+                    <p>
+                        When it comes to the audience for this public writing, I don't expect them to have 
+                        any sort of technical background. Ideally, the readers will have some preexisting 
+                        understanding of disabilities (and possibly the ADA), so they'll recognize the 
+                        significance of this topic. The goal of the article is to take a 10,000-foot view 
+                        of the subject matter and educate the reader on some aspects of web accessibility 
+                        and popular solutions. Ultimately, readers should walk away with a heightened 
+                        awareness of web accessibility and its impact.
+                    </p>
+                </div>
+            </details>
         </main>
         <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
         <script src="chart.js" type="text/javascript"></script>
